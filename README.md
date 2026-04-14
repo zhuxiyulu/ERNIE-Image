@@ -187,7 +187,7 @@ git clone https://github.com/sgl-project/sglang.git
 cd sglang
 pip install -e .
 
-sglang serve --model-path baidu/ERNIE-Image
+sglang serve --model-path baidu/ERNIE-Image-Turbo
 ```
 
 Install vllm and deploy for ERNIE-Image-PE Server.
@@ -195,9 +195,12 @@ Install vllm and deploy for ERNIE-Image-PE Server.
 pip install uv
 uv venv --python=3.12 --seed
 uv pip install vllm
-uv pip install transofmers==5.4.0
+uv pip install transformers==5.4.0
 
-vllm serve ~/.cache/huggingface/hub/models--baidu--ERNIE-Image/snapshots/*/pe --port 8888
+mkdir ./ernie_image_pe
+# 将baidu/ERNIE-Image-Turbo目录下的pe和pe_tokenizer子目录文件同步到ernie_image_pe目录下
+cp -rfL ~/.cache/huggingface/hub/models--baidu--ERNIE-Image-Turbo/snapshots/*/pe*/* ./ernie_image_pe
+vllm serve ./ernie_image_pe --port 8888
 ```
 
 Stage1: Get revised prompt:
@@ -205,9 +208,9 @@ Stage1: Get revised prompt:
 curl -X POST http://localhost:8888/v1/chat/completions \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "default",
+    "model": "./ernie_image_pe",
     "messages": [
-      {"role": "user", "content": "一只黑白相间的中华田园犬"}
+      {"role": "user", "content": "{\"prompt\": \"一个女孩在海边\", \"width\": 1024, \"height\": 1024}"}
     ],
     "temperature": 0.6,
     "top_p": 0.8,
@@ -224,8 +227,8 @@ curl -X POST http://localhost:30000/generate \
     "prompt": {revised_propmt},
     "height": 1024,
     "width": 1024,
-    "num_inference_steps": 50,
-    "guidance_scale": 4.0,
+    "num_inference_steps": 8,
+    "guidance_scale": 1.0,
     "use_pe": false  # Using this method requires use_pe to be false.
   }' \
   --output output.png
