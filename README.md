@@ -260,6 +260,10 @@ If you have any questions or suggestions, please feel free to contact us:
 | X | [X](https://x.com/ErnieforDevs) |
 | Email | [wenxin-all@baidu.com](mailto:wenxin-all@baidu.com) |## Contacts
 
+## Star History
+
+TODO
+
 ## License
 
 This project is licensed under the [Apache License 2.0](LICENSE).
