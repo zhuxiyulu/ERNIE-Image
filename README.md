@@ -5,7 +5,7 @@
   <a href="https://huggingface.co/Baidu/ERNIE-Image">🤗 ERNIE-Image</a> &nbsp;|&nbsp;
   <a href="https://huggingface.co/Baidu/ERNIE-Image-Turbo">🤗 ERNIE-Image-Turbo</a> &nbsp;|&nbsp;
   <a href="https://huggingface.co/spaces/baidu/ERNIE-Image">🤗 ERNIE-Image-Turbo Huggingface Online Demo</a> &nbsp;|&nbsp;
-  <a href="https://sandbox-aistudio.baidu.com/ernieimage">🤗 ERNIE-Image-Turbo Baidu AI Studio Online Demo</a> &nbsp;|&nbsp;
+  <a href="https://aistudio.baidu.com/application/detail/179775">🤗 ERNIE-Image-Turbo Baidu AI Studio Online Demo</a> &nbsp;|&nbsp;
   <a href="https://yiyan.baidu.com/blog/posts/ernie-image">📖 Blog</a> &nbsp;|&nbsp;
   <a href="https://ernieimageprompt.com/">🖼️ Art Gallery</a>
 </p>
@@ -240,7 +240,7 @@ curl -X POST http://localhost:30000/generate \
 ## Showcase
 
 | Prompt | Image |
-|--------|-------|
+|--------|:----:|
 | <details><summary>展开提示词</summary>一张桌面端浏览器网页界面的截图，宽高比适宜宽屏展示。顶部是标准的浏览器外框区域，左上角的标签页名称显示为 'Introduction to LLMs'，旁边带有细小的关闭叉号。地址栏中显示着网址 'https://www.ai-insights.com/intro-to-llms'，左侧有深灰色的后退、前进和刷新图标，右上角是常规的最小化、最大化和关闭窗口按钮。网页顶部是一个白底导航栏，左侧有一个包含蓝色节点连线图案的品牌Logo，旁边的文字为 'AI Insights'。导航栏中部水平排列着四个导航链接：'Home'、'Models'、'Research' 和 'About Us'。右侧放置着一个带放大镜图标的浅灰色搜索框，以及一个蓝色的 'Log In' 按钮。网页主体部分采用现代简洁的风格，浅灰白色的背景。视觉中心上方是醒目的黑色加粗大标题 'Understanding Large Language Models (LLMs)'，下方紧跟深灰色的副标题 'A brief guide to the AI systems shaping the future of natural language processing.'。页面中下部呈左右两栏布局。左侧为文字说明区，包含一个小标题 'What are LLMs?'，下方正文为 'Large Language Models are advanced artificial intelligence systems designed to understand, generate, and interact with human language. They are trained on vast amounts of text data using deep learning techniques, particularly transformer architectures.'。紧接着是第二个小标题 'How do they work?'，其正文内容为 'By analyzing billions of parameters, LLMs predict the next word in a sequence, allowing them to perform tasks like translation, summarization, and conversation with remarkable accuracy.'。下方还有一个要点列表，标题为 'Key Capabilities:'，包含三个带有圆点符号的项目：'• Text Generation & Completion'，'• Language Translation'，'• Sentiment Analysis'。右侧栏是一幅充满科技感的矢量插画，主色调为深蓝和紫色。插画中心是一个由发光线条和节点构成的大脑形状神经网络，周围环绕着代表不同功能的悬浮图标，包括白色的聊天对话气泡、折角的文档图标以及金色的齿轮。网页最右侧边缘显示着一段灰色的垂直滚动条。画面光线明亮，排版整洁，文字清晰可辨。</summary></details> | <img src="assets/show_cases/showcase1.jpg" width="300"> |
 | <details><summary>展开提示词</summary>这是一张夜间城市街道的摄影照片，展示了雨后湿滑路面与昏黄灯光交织的街景。画面主体是一条被雨水打湿的柏油马路，路面因积水呈现出强烈的反光效果，倒映着街道两侧的霓虹灯牌和路灯，形成蓝青色与暖黄色交织的光影。一辆深色轿车正亮着刺眼的白色前大灯行驶在画面右侧的街道上，车灯的光芒在湿润的路面上投射出明亮的倒影。\n\n街道左侧排列着数家店铺，最显眼的是一家挂着黄色招牌的居酒屋，招牌上用醒目的红色和黑色字体写着‘居酒屋’、‘生ビール 190円’以及‘SMOOTH PREMIUM BEER’字样，招牌下方悬挂着一个红色的灯笼。在这家店的上方和侧面还有竖向的灯箱招牌，同样写着‘生ビール 190円’。左侧前景处立着一个小型的发光广告牌，上面列有菜单，隐约可见‘100’等数字。街道右侧是一排较高的建筑物，窗户透出零星灯光，路边竖立着交通标志杆。</summary></details> | <img src="assets/show_cases/showcase3.png" width="300"> |
 | <details><summary>展开提示词</summary>画面采用1:1的正方形构图，背景为干净的浅米色，整体呈现出一种现代、简约且充满童趣的扁平矢量插画风格。画面顶部中央是醒目的大号圆润艺术字体标题：'ALPHABET OF CAREERS'，下方紧跟着一行稍小的无衬线副标题：'A Guide to Different Jobs'。 画面主体采用**4行6列的网格布局，其中第一行和第二行各多一个格子**，形成**7-7-6-6的排列结构**，共26个网格整整齐齐地分布在画面中。每个网格为圆角矩形，内包含一个巨大的圆润彩色字母（位于左上角，颜色分别为红色、蓝色、黄色、绿色、橙色、紫色、粉色等）、一个可爱的卡通儿童形象（穿着对应职业服装）以及下方的职业英文标签。 **第一行（A-G，共7个）：** - **A**：穿着白色太空服、戴着透明头盔的女孩 — 'Astronaut' - **B**：穿着白色围裙、戴着高高厨师帽、手中拿着面包的男孩 — 'Baker' - **C**：穿着白色双排扣厨师服、戴着高帽的女孩 — 'Chef' - **D**：穿着白色大褂、戴着蓝色听诊器的男孩 — 'Doctor' - **E**：穿着蓝色工装、戴着黄色安全帽、手中拿着蓝图的男孩 — 'Engineer' - **F**：穿着绿色格子衬衫、戴着草帽和背带裤的男孩 — 'Farmer' - **G**：穿着绿色围裙、戴着园艺手套和遮阳帽、手中拿着浇水壶的女孩 — 'Gardener' **第二行（H-N，共7个）：** - **H**：穿着黑色围裙、手中拿着剪刀和梳子的女孩 — 'Hairdresser' - **I**：穿着沾满颜料的白色罩衣、戴着贝雷帽、手中拿着画笔的男孩 — 'Illustrator' - **J**：穿着黑色法官袍、戴着白色领结、手中拿着法槌的男孩 — 'Judge' - **K**：穿着彩色开衫、手中拿着绘本的温柔女孩 — 'Kindergarten Teacher' - **L**：穿着深蓝色开衫、戴着眼镜、怀中抱着书本的女孩 — 'Librarian' - **M**：穿着黄色背带裤、戴着耳机、手中抱着吉他的男孩 — 'Musician' - **N**：穿着浅绿色手术服、戴着口罩和手术帽的女孩 — 'Nurse' **第三行（O-T，共6个）：** - **O**：穿着黑色制服、戴着警徽帽子的男孩 — 'Officer' - **P**：穿着白色大褂、戴着蓝色手套、手中拿着画笔和调色板的女孩 — 'Painter' - **Q**：穿着紫色围裙、戴着顶针帽子、手中拿着拼布的女孩 — 'Quilter' - **R**：穿着银色工装、戴着护目镜、身边有个小机器人的男孩 — 'Robotics Engineer' - **S**：穿着白色实验服、戴着护目镜、手中拿着烧杯的女孩 — 'Scientist' - **T**：穿着黄色制服、戴着帽子的男孩 — 'Taxi Driver' **第四行（U-Z，共6个）：** - **U**：穿着蓝色潜水服、戴着潜水面罩和脚蹼的男孩 — 'Underwater Explorer' - **V**：穿着绿色手术服、戴着听诊器、怀中抱着小猫的女孩 — 'Veterinarian' - **W**：穿着黑色背心、白色衬衫、戴着围裙、手中托着餐盘的男孩 — 'Waiter' - **X**：穿着白色大褂、戴着蓝色手套、手中拿着X光片的男孩 — 'X-ray Technician' - **Y**：穿着白色海军制服、戴着金色肩章船长帽、手中拿着望远镜的女孩 — 'Yacht Captain' - **Z**：穿着卡其色制服、戴着宽檐帽、身边有小动物的男孩 — 'Zoo Keeper' 整张图表色彩明亮饱和，线条简洁流畅，所有文字均采用无衬线字体且清晰可见，排版严谨对称，具有高度的组织感与教育美感。</summary></details> | <img src="assets/show_cases/showcase5.png" width="300"> |
@@ -256,14 +256,15 @@ curl -X POST http://localhost:30000/generate \
 - [AI-Toolkit](https://github.com/ostris/ai-toolkit) supports fine-tuning our model.
 
 ## Contacts
+
 If you have any questions or suggestions, please feel free to contact us:
 
-| | |
-|---|---|
+| Channel | Link |
+|:-------:|:----:|
 | WeChat | <img src="assets/contacts/WeChat.jpg" width="120"> |
-| Discord | [Discord](https://discord.gg/ByUTbjfG5k) |
-| X | [X](https://x.com/ErnieforDevs) |
-| Email | [wenxin-all@baidu.com](mailto:wenxin-all@baidu.com) |## Contacts
+| Discord | [Join Discord](https://discord.gg/ByUTbjfG5k) |
+| X | [Follow on X](https://x.com/ErnieforDevs) |
+| Email | [wenxin-all@baidu.com](mailto:wenxin-all@baidu.com) |
 
 ## Star History
 
