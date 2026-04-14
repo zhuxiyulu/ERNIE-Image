@@ -9,7 +9,7 @@
   <a href="https://yiyan.baidu.com/blog/posts/ernie-image">📖 Blog</a> &nbsp;|&nbsp;
   <a href="https://ernieimageprompt.com/">🖼️ Art Gallery</a>
   <br/>
-  <a href="https://github.com/baidu/ERNIE-Image/blob/main/assets/contacts/WeChat.jpg">💬 WeChat(微信)</a> &nbsp;|&nbsp;
+  <a href="https://github.com/baidu/ERNIE-Image/blob/main/assets/contacts/WeChat_small.jpg">💬 WeChat(微信)</a> &nbsp;|&nbsp;
   <a href="https://discord.gg/ByUTbjfG5k">🫨 Discord</a> &nbsp;|&nbsp;
   <a href="https://x.com/ErnieforDevs">🏷️ X</a>
 </p>
