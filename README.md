@@ -4,10 +4,14 @@
 <p align="center">
   <a href="https://huggingface.co/Baidu/ERNIE-Image">🤗 ERNIE-Image</a> &nbsp;|&nbsp;
   <a href="https://huggingface.co/Baidu/ERNIE-Image-Turbo">🤗 ERNIE-Image-Turbo</a> &nbsp;|&nbsp;
-  <a href="https://huggingface.co/spaces/baidu/ERNIE-Image">🤗 ERNIE-Image-Turbo Huggingface Online Demo</a> &nbsp;|&nbsp;
-  <a href="https://aistudio.baidu.com/application/detail/179775">🤗 ERNIE-Image-Turbo Baidu AI Studio Online Demo</a> &nbsp;|&nbsp;
+  <a href="https://huggingface.co/spaces/baidu/ERNIE-Image">🖥️ Huggingface Demo</a> &nbsp;|&nbsp;
+  <a href="https://aistudio.baidu.com/application/detail/179775">🖥️ AI Studio Demo</a> &nbsp;|&nbsp;
   <a href="https://yiyan.baidu.com/blog/posts/ernie-image">📖 Blog</a> &nbsp;|&nbsp;
   <a href="https://ernieimageprompt.com/">🖼️ Art Gallery</a>
+  <br/>
+  <a href="https://github.com/baidu/ERNIE-Image/blob/main/assets/contacts/WeChat.jpg">💬 WeChat(微信)</a> &nbsp;|&nbsp;
+  <a href="https://discord.gg/ByUTbjfG5k">🫨 Discord</a> &nbsp;|&nbsp;
+  <a href="https://x.com/ErnieforDevs">🏷️ X</a>
 </p>
 
 ERNIE-Image is an open text-to-image generation model developed by the ERNIE-Image team at Baidu. It is built on a single-stream Diffusion Transformer (DiT) and paired with a lightweight Prompt Enhancer that expands brief user inputs into richer structured descriptions. With only 8B DiT parameters, it reaches state-of-the-art performance among open-weight text-to-image models.
@@ -261,7 +265,7 @@ If you have any questions or suggestions, please feel free to contact us:
 
 | Channel | Link |
 |:-------:|:----:|
-| WeChat | <img src="assets/contacts/WeChat.jpg" width="120"> |
+| WeChat | [Join WeChat](https://github.com/baidu/ERNIE-Image/blob/main/assets/contacts/WeChat.jpg) |
 | Discord | [Join Discord](https://discord.gg/ByUTbjfG5k) |
 | X | [Follow on X](https://x.com/ErnieforDevs) |
 | Email | [wenxin-all@baidu.com](mailto:wenxin-all@baidu.com) |
