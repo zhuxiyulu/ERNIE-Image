@@ -158,7 +158,7 @@ image = pipe(
 
 ### Inference Guidance for Diffusers on Ascend NPU
 While inference can be executed directly on NPU using the Diffusers framework, this demo incorporates specific inference performance optimizations, improving End-to-End (E2E) performance by approximately 30%.
-For detailed inference instructions, please refer to the [npu_infer_guide](/npu_example/npu_infer_guide.md).
+For detailed inference instructions, please refer to the [npu_infer_guide](src/npu_example/npu_infer_guide.md).
 
 
 ### SGLang
